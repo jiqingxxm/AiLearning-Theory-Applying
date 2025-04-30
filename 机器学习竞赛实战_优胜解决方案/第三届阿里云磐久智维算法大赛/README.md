@@ -92,7 +92,7 @@ bash run.sh
 
 ## 终榜亚军
 
-<img src="assets/亚军盖章.jpg" alt="亚军盖章" title="亚军盖章" width="250"  height = "350" />
+<img src="assets/亚军盖章.jpg" alt="亚军盖章" title="亚军盖章" width="500"  height = "700" />
 
 
 
