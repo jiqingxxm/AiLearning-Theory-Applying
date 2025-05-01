@@ -1,0 +1,6 @@
+jieba
+zhipuai
+pandas
+openpyxl
+requests
+jsonlines

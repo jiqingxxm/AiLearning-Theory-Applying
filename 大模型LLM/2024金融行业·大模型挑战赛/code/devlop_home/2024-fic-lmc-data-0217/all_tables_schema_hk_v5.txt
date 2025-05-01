@@ -1,0 +1,602 @@
+
+=== constantdb.ct_systemconst 表结构 ===
+列名                   注释                             数据示例                                              
+----------------------------------------------------------------------------------------------------
+ID                   ID                             166207150846                                      
+LB                   常量分类编码                         999                                               
+LBMC                 常量分类名称                         是否                                                
+MS                   常量描述                           是                                                 
+DM                   常量代码                           1                                                 
+XGRQ                 修改日期                           2007-02-12 09:06:13.520                           
+JSID                 JSID                           224586371430                                      
+FVALUE               浮点值                            NULL                                              
+IVALUE               整型值                            NULL                                              
+CVALUE               字符值                            NULL                                            
+
+
+=== constantdb.hk_secumain 表结构 ===
+列名                   注释                             数据示例                                              
+----------------------------------------------------------------------------------------------------
+ID                   ID                             182598377530                                      
+InnerCode            证券内部编码                         1002504                                           
+CompanyCode          公司代码                           2437                                              
+SecuCode             证券代码                           00939                                             
+ChiName              中文名称                           中国建设银行股份有限公司                                      
+EngName              英文名称                           China Construction Bank Corporation               
+EngNameAbbr          英文名称缩写                         CCB                                               
+SecuAbbr             证券简称                           建设银行                                              
+ChiSpelling          拼音证券简称                         JSYH                                              
+SecuMarket           证券市场                           72                                                
+SecuCategory         证券类别                           3                                                 
+ListedDate           上市日期                           2005-10-27 12:00:00.000                           
+ListedSector         上市板块                           1                                                 
+ListedState          上市状态                           1                                                 
+XGRQ                 修改日期                           2019-12-08 08:03:38.837                           
+JSID                 JSID                           629150621771                                      
+ISIN                 ISIN代码                         CNE1000002H1                                      
+FormerName           曾用名                            美团点评-W                                              
+TradingUnit          买卖单位(股/手)                       1000.0                                            
+TraCurrUnit          交易货币类别                         1100                                              
+InsertTime           发布时间                           2005-10-14 09:46:17.530                          
+
+
+=== constantdb.lc_areacode 表结构 ===
+列名                   注释                             数据示例                                              
+----------------------------------------------------------------------------------------------------
+ID                   ID                             530127285284                                      
+AreaInnerCode        地区内部编码                         144110000                                         
+AreaCode             地区行政编码                         110000                                            
+FirstLevelCode       一级区划代码                         1000                                              
+SecondLevelCode      二级区划代码                         1001                                              
+AreaChiName          地区中文名称                         北京市                                               
+AreaEngName          地区英文名称                         Bei Jing Shi                                      
+AreaEngNameAbbr      地区英文名称缩写                       BJS                                               
+ParentNode           父节点代码                          144000000                                         
+ParentName           父节点名称                          中国                                                
+IfEffected           是否有效                           1                                                 
+UpdateTime           更新时间                           2017-06-29 06:35:04.150                           
+JSID                 JSID                           552076504185                                      
+InsertTime           发布时间                           2017-06-29 06:35:04.150                           
+
+
+=== constantdb.qt_tradingdaynew 表结构 ===
+列名                   注释                             数据示例                                              
+----------------------------------------------------------------------------------------------------
+ID                   ID                             372438175343                                      
+TradingDate          日期                             2019-01-01 12:00:00.000                           
+IfTradingDay         是否交易日                          2                                                 
+SecuMarket           证券市场                           83                                                
+IfWeekEnd            是否周最后交易日                           2                                                 
+IfMonthEnd           是否月最后交易日                           2                                                 
+IfQuarterEnd         是否季最后交易日                           2                                                 
+IfYearEnd            是否年最后交易日                           2                                                 
+XGRQ                 修改日期                           2011-10-20 03:57:22.583                           
+JSID                 JSID                           372443069774                                           
+
+
+=== creditdb.lc_violatiparty 表结构 ===
+列名                   注释                             数据示例                                              
+----------------------------------------------------------------------------------------------------
+ID                   ID                             599945230176                                      
+RID                  RID                            599945186325                                      
+EventCode            事件代码                           35739                                             
+PartyName            当事人                            熊猫金控股份有限公司                                        
+PartyType            当事人性质                          2                                                 
+PartyCode            当事人编码                          1532.0                                            
+BeginDate            起始日期                           2019-01-04 12:00:00.000                           
+EndDate              日期                             2019-01-25 12:00:00.000                                              
+ViolationClause      违规条款                           《上市公司信息披露管理办法》第二条                                              
+PenalOrg             处罚机构                           1                                                 
+PenalType            处罚类型                           2003.0                                            
+AmountInvolved       涉及金额(元)                        499000                                              
+CurrencyCode         计价货币                           1420                                              
+PenalStatement       处罚说明                           关于熊猫金控股份有限公司筹划重大事项后续进展的问询函                        
+UpdateTime           更新时间                           2022-11-02 04:28:37.163                           
+JSID                 JSID                           720745594880                                      
+PenalOrgCode         处罚机构编码                         25403.0                                           
+RelataCompany        关联上市公司                         1800                                              
+PenalTypeNew         处罚类型(新)                        104010                                            
+ViolationStatement   违规说明                           出具问询函                                              
+InsertTime           发布时间                           NULL                                              
+AnnID                No description available       4171938399635.0                                     
+
+
+=== hkstockdb.cs_hkstockperformance 表结构 ===
+列名                   注释                             数据示例                                              
+----------------------------------------------------------------------------------------------------
+ID                   ID                             736560760933                                      
+InnerCode            证券内部编码                         1000593                                           
+TradingDay           交易日                            2021-02-11 12:00:00.000                           
+PrevClosePrice       昨收盘                            4.43                                              
+OpenPrice            今开盘                            4.42                                              
+HighPrice            最高价                            4.49                                              
+LowPrice             最低价                            4.39                                              
+ClosePrice           收盘价                            4.45                                              
+CurrencyUnitCode     货币代码1                          1100                                              
+TurnoverVolume       成交量                            47568219.0                                        
+TurnoverValue        成交金额(元)                        211279782.9                                       
+ChangeOF             涨跌                             0.02                                              
+ChangePCT            涨跌幅(%)                         0.4515                                            
+RangePCT             振幅(%)                          2.2573                                            
+TurnoverRate         换手率(%)                         0.1555                                            
+AvgPrice             均价                             4.4416                                            
+TotalMV              总市值(元)                         136161653335.25                                   
+NegotiableMV         流通市值(不含限售股)(元)                 136161653335.25                                   
+TurnoverValueRW      近一周成交金额(元)                     1328438341.217                                    
+TurnoverVolumeRW     近一周成交量(股)                      300908224.0                                       
+ChangeOFRW           近一周涨跌(元)                       0.2018                                            
+ChangePCTRW          近一周涨跌幅(%)                      3.488                                             
+RangePCTRW           近一周振幅(%)                       4.4179                                            
+TurnoverRateRW       近一周换手率(%)                      0.9835                                            
+AvgPriceRW           近一周成交均价(元)                     5.9401                                            
+HighPriceRW          近一周最高价(元)                      4.49                                              
+LowPriceRW           近一周最低价(元)                      4.3                                               
+HighestClosePriceRW  近一周收盘最高价(元)                    4.45                                              
+LowestClosePriceRW   近一周收盘最低价(元)                    4.4                                               
+TurnoverValuePerDayRW 近一周日均成交金额(元)                   265687668.2434                                    
+TurnoverRatePerDayRW 近一周日均换手率(%)                    0.1967                                            
+TurnVolumePerDayRW   近一周日均成交量(股)                    60181644.8                                        
+ChangePCTPerDayRW    近一周日均涨跌幅(%)                    0.6916                                            
+RangePCTPerDayRW     近一周日均振幅(%)                     2.5106                                            
+TotalMVPerDayRW      近一周日均总市值(元)                    135182513356.21                                   
+NegotiableMVPerDayRW 近一周日均流通市值(不含限售股)(元)            135182513356.21                                   
+TurnoverValueTW      本周以来成交金额(元)                    905949432.16                                      
+TurnoverVolumeTW     本周以来成交量(股)                     204870612.0                                       
+ChangeOFTW           本周以来涨跌(元)                      204870612.0                                       
+ChangePCTTW          本周以来涨跌幅(%)                     1.1368                                            
+RangePCTTW           本周以来振幅(%)                      3.4087                                            
+TurnoverRateTW       本周以来换手率(%)                     0.6696                                            
+AvgPriceTW           本周以来成交均价(元)                    5.9499                                            
+HighPriceTW          本周以来最高价(元)                     4.49                                              
+LowPriceTW           本周以来最低价(元)                     4.34                                              
+HighestClosePriceTW  本周以来收盘最高价(元)                   4.45                                              
+LowestClosePriceTW   本周以来收盘最低价(元)                   4.4                                               
+TurnoverValuePerDayTW 本周以来日均成交金额(元)                  226487358.04                                      
+TurnoverRatePerDayTW 本周以来日均换手率(%)                   0.1674                                            
+TurnVolumePerDayTW   本周以来日均成交量(股)                   51217653.0                                        
+ChangePCTPerDayTW    本周以来日均涨跌幅(%)                   0.2831                                            
+RangePCTPerDayTW     本周以来日均振幅(%)                    2.3243                                            
+TotalMVPerDayTW      本周以来日均总市值(元)                   135320204915.7625                                 
+NegotiableMVPerDayTW 本周以来日均流通市值(不含限售股)(元)           135320204915.7625                                 
+TurnoverValueRM      近一月成交金额(元)                     14993706197.559                                   
+TurnoverVolumeRM     近一月成交量(股)                      3165937668.0                                      
+ChangeOFRM           近一月涨跌(元)                       -0.2826                                           
+ChangePCTRM          近一月涨跌幅(%)                      -4.5072                                           
+RangePCTRM           近一月月振幅(%)                      21.673                                            
+TurnoverRateRM       近一月月换手率(%)                     10.3469                                           
+AvgPriceRM           近一月成交均价(元)                     6.3722                                            
+HighPriceRM          近一月最高价(元)                      5.29                                              
+LowPriceRM           近一月最低价(元)                      4.28                                              
+HighestClosePriceRM  近一月收盘最高价(元)                    5.12                                              
+LowestClosePriceRM   近一月收盘最低价(元)                    4.3                                               
+TurnoverValuePerDayRM 近一月日均成交金额(元)                   651900269.4591                                    
+TurnoverRatePerDayRM 近一月日均换手率(%)                    0.4499                                            
+TurnVolumePerDayRM   近一月日均成交量(股)                    137649463.8261                                    
+ChangePCTPerDayRM    近一月日均涨跌幅(%)                    -0.1719                                           
+RangePCTPerDayRM     近一月日均振幅(%)                     4.3055                                            
+TotalMVPerDayRM      近一月日均总市值(元)                    142254671139.6022                                 
+NegotiableMVPerDayRM 近一月日均流通市值(不含限售股)(元)            142254671139.6022                                 
+TurnoverValueTM      本月以来成交金额(元)                    3049952093.827                                    
+TurnoverVolumeTM     本月以来成交量(股)                     691025867.0                                       
+ChangeOFTM           本月以来涨跌(元)                      0.1211                                            
+ChangePCTTM          本月以来涨跌幅(%)                     2.0643                                            
+RangePCTTM           本月以来振幅(%)                      6.6516                                            
+TurnoverRateTM       本月以来换手率(%)                     2.2585                                            
+AvgPriceTM           本月以来成交均价(元)                    5.9386                                            
+HighPriceTM          本月以来最高价(元)                     4.57                                              
+LowPriceTM           本月以来最低价(元)                     4.28                                              
+HighestClosePriceTM  本月以来收盘最高价(元)                   4.46                                              
+LowestClosePriceTM   本月以来收盘最低价(元)                   4.3                                               
+TurnoverValuePerDayTM 本月以来日均成交金额(元)                  338883565.9808                                    
+TurnoverRatePerDayTM 本月以来日均换手率(%)                   0.2509                                            
+TurnVolumePerDayTM   本月以来日均成交量(股)                   76780651.8889                                     
+ChangePCTPerDayTM    本月以来日均涨跌幅(%)                   0.2389                                            
+RangePCTPerDayTM     本月以来日均振幅(%)                    2.8016                                            
+TotalMVPerDayTM      本月以来日均总市值(元)                   134971726277.3889                                 
+NegotiableMVPerDayTM 本月以来日均流通市值(不含限售股)(元)           134971726277.3889                                 
+TurnoverValueRMThree 近三个月成交金额(元)                    37986003156.837                                   
+TurnoverVolumeRMThree 近三个月成交量(股)                     8255029929.0                                      
+ChangeOFRMThree      近三个月涨跌(元)                      -1.48                                             
+ChangePCTRMThree     近三个月涨跌幅(%)                     -19.8195                                          
+RangePCTRMThree      近三个月振幅(%)                      29.7292                                           
+TurnoverRateRMThree  近三个月换手率(%)                     26.9791                                           
+AvgPriceRMThree      近三个月成交均价(元)                    6.1914                                            
+HighPriceRMThree     近三个月以来最高价(元)                   5.6                                               
+LowPriceRMThree      近三个月以来最低价(元)                   3.95                                              
+HighestClosePRMThree 近三个月以来收盘最高价(元)                 5.33                                              
+LowestClosePRMThree  近三个月以来收盘最低价(元)                 4.3                                               
+TurnValuePDayRMThree 近三个月日均成交金额(元)                  593531299.3256                                    
+TurnRatePDayRMThree  近三个月日均换手率(%)                   0.4215                                            
+TurnVolumePDayRMThree 近三个月日均成交量(股)                   128984842.6406                                    
+ChangePCTPDayRMThree 近三个月日均涨跌幅(%)                   -0.3047                                           
+RangePCTPDayRMThree  近三个月日均振幅(%)                    3.994                                             
+TotalMVPerDayRMThree 近三个月日均总市值(元)                   141750591985.1414                                 
+NegotiableMVPRMThree 近三个月日均流通市值(不含限售股)(元)           141750591985.1414                                 
+TurnoverValueRMSix   近六个月成交金额(元)                    61368919050.576                                   
+TurnoverVolumeRMSix  近六个月成交量(股)                     12475970128.0                                     
+ChangeOFRMSix        近六个月涨跌(元)                      -0.148                                            
+ChangePCTRMSix       近六个月涨跌幅(%)                     -2.4122                                           
+RangePCTRMSix        近六个月振幅(%)                      60.3074                                           
+TurnoverRateRMSix    近六个月换手率(%)                     40.7739                                           
+AvgPriceRMSix        近六个月成交均价(元)                    6.6185                                            
+HighPriceRMSix       近六个月以来最高价(元)                   6.7                                               
+LowPriceRMSix        近六个月以来最低价(元)                   3.95                                              
+HighestClosePRMSix   近六个月以来收盘最高价(元)                 6.53                                              
+LowestClosePRMSix    近六个月以来收盘最低价(元)                 4.3                                               
+TurnValuePDayRMSix   近六个月日均成交金额(元)                  487054913.0998                                    
+TurnRatePDayRMSix    近六个月日均换手率(%)                   0.3236                                            
+TurnVolumePDayRMSix  近六个月日均成交量(股)                   99015635.9365                                     
+ChangePCTPDayRMSix   近六个月日均涨跌幅(%)                   0.0579                                            
+RangePCTPDayRMSix    近六个月日均振幅(%)                    4.6251                                            
+TotalMVPerDayRMSix   近六个月日均总市值(元)                   153891566497.3806                                 
+NegotiableMVPRMSix   近六个月日均流通市值(不含限售股)(元)           153891566497.3806                                 
+TurnoverValueRY      近一年成交金额(元)                     90977316364.545                                   
+TurnoverVolumeRY     近一年成交量(股)                      18601667225.0                                     
+ChangeOFRY           近一年涨跌(元)                       -2.7799                                           
+ChangePCTRY          近一年涨跌幅(%)                      -31.7076                                          
+RangePCTRY           近一年振幅(%)                       46.0187                                           
+TurnoverRateRY       近一年换手率(%)                      60.7938                                           
+AvgPriceRY           近一年成交均价(元)                     6.5309                                            
+HighPriceRY          近一年最高价(元)                      6.7                                               
+LowPriceRY           近一年最低价(元)                      3.84                                              
+HighestClosePRY      近一年收盘价最高(元)                    6.79                                              
+LowestClosePRY       近一年收盘价最低(元)                    3.9                                               
+TurnoverValuePDayRY  近一年日均成交金额(元)                   363909265.4582                                    
+TurnoverRatePDayRY   近一年日均换手率(%)                    0.2432                                            
+TurnVolumePDayRY     近一年日均成交量(股)                    74406668.9                                        
+ChangePCTPDayRY      近一年日均涨跌幅(%)                    -0.09                                             
+RangePCTPDayRY       近一年日均振幅(%)                     4.0223                                            
+TotalMVPerDayRY      近一年日均总市值(元)                    152158352742.816                                  
+NegotiableMVPRY      近一年日均流通市值(不含限售股)(元)            152158352742.816                                  
+TurnoverValueYTD     今年以来成交金额(元)                    29031479316.079                                   
+TurnoverVolumeYTD    今年以来成交量(股)                     6331137811.0                                      
+ChangeOFYTD          今年以来涨跌(元)                      0.0                                               
+ChangePCTYTD         今年以来涨跌幅(%)                     0.0                                               
+RangePCTYTD          今年以来振幅(%)                      30.1116                                           
+TurnoverRateYTD      今年以来换手率(%)                     20.6914                                           
+AvgPriceYTD          今年以来成交均价(元)                    6.1698                                            
+HighPriceYTD         今年以来最高价(元)                     5.29                                              
+LowPriceYTD          今年以来最低价(元)                     3.95                                              
+HighestClosePriceYTD 今年以来收盘最高价(元)                   5.12                                              
+LowestClosePriceYTD  今年以来收盘最低价(元)                   4.3                                               
+TurnoverValuePerDayYTD 今年以来日均成交金额(元)                  1001085493.6579                                   
+TurnoverRatePerDayYTD 今年以来日均换手率(%)                   0.7135                                            
+TurnVolumePDayYTD    今年以来日均成交量(股)                   0.7135                                            
+ChangePCTPerDayYTD   今年以来日均涨跌幅(%)                   0.0661                                            
+RangePCTPerDayYTD    今年以来日均振幅(%)                    5.1862                                            
+TotalMVPerDayYTD     今年以来日均总市值(元)                   142217971740.0879                                 
+NegotiableMVPYTD     今年以来日均流通市值(不含限售股)(元)           142217971740.0879                                 
+HighAdjustedPrice    上市以来复权最高价(元)                   22.2126                                           
+HighAdjustedPriceDate 上市以来复权最高价日期                    2008-02-18 12:00:00.000                           
+LowAdjustedPrice     上市以来复权最低价(元)                   3.8                                               
+LowAdjustedPriceDate 上市以来复权最低价日期                    2003-04-24 12:00:00.000                           
+UpdateTime           更新时间                           2023-05-04 10:08:41.710                           
+InsertTime           发布时间                           2023-05-04 10:08:41.710                           
+JSID                 JSID                           736566422989                                     
+
+
+=== hkstockdb.hk_employeechange 表结构 ===
+列名                   注释                             数据示例                                              
+----------------------------------------------------------------------------------------------------
+ID                   ID                             606617576133                                      
+InnerCode            证券内部代码                         1000844                                           
+InfoPublDate         信息发布日期                         2019-03-22 12:00:00.000                           
+InfoSource           信息来源                           5                                                 
+IfEffected           是否有效                           1                                                 
+EffectiveDate        生效日期                           2018-12-31 12:00:00.000                           
+QuaBeforeChange      变更前员工数量                        63911.0                                           
+QuaAfterChange       变更后员工数量                        63455.0                                           
+UpdateTime           更新时间                           2020-04-09 11:14:17.337                           
+JSID                 JSID                           639789381968                                      
+
+
+=== hkstockdb.hk_stockarchives 表结构 ===
+列名                   注释                             数据示例                                              
+----------------------------------------------------------------------------------------------------
+ID                   ID                             177497979062                                      
+CompanyCode          公司代码                           1000143                                           
+EstablishmentDate    公司成立日期                         1989-11-22 12:00:00.000                           
+RegAbbr              注册地                            504.0                                             
+Business             公司业务                               深圳国际控股有限公司是一家主要从事收费公路业务的投资控股公司。该公司通过两个分部经营业...
+InduCHKE             所属行业-港交所                       900.0                                             
+InduCHS              所属行业-恒生                        10304.0                                           
+Chairman             主席                             李海涛                                               
+CompanySecretary     公司秘书                           刘旺新\林婉玲                                           
+CertifiedAccountant  合资格会计师                         NULL                                              
+RegisteredOffice     注册办事处                          Clarendon House, 2 Church Street, Hamilton HM 1...
+GeneralOffice        总办事处及主要营业地点                    九龙尖沙咀东部科学馆道1号康宏广场南座22楼2206-2208室                  
+Registrars           股份过户处(香港)                      登捷时有限公司(香港湾仔告士打道56号东亚银行港湾中心地下)                    
+Tel                  电话                             (0755)83079990;(0755)83079999;(852)23660268       
+Fax                  传真                             (0755)83079988;(852)27395123                      
+Eail                 邮箱                             info@szihl.com                                    
+Website              公司网址                           http://www.szihl.com                              
+BriefIntroduction    公司简介                               本集团以粤港澳大湾区、长三角、京津冀以及主要物流节点城市为主要战略区域,通过投资併购、...
+XGRQ                 修改日期                           2024-10-21 09:51:01.550                           
+JSID                 JSID                           783051438288                                      
+CompanyType          企业类别                           5.0                                               
+CompanyTypeDesc      公司类别描述                         境外注册内地国资控制                                        
+ChiName              中文名称                           深圳国际控股有限公司                                        
+AuditInstitution     审计机构                           德勤·关黄陈方会计师行                                       
+RegCapital           注册资本(元)                        300000.0                                          
+RegCapitalCurrency   注册资本货币单位                       1100.0                                             
+
+
+=== indexdb.lc_indexbasicinfo 表结构 ===
+列名                   注释                             数据示例                                              
+----------------------------------------------------------------------------------------------------
+ID                   ID                             212263589812                                      
+IndexCode            指数内部编码                           1                                                 
+IndexType            指数类别                           10                                                
+ComponentType        成份证券类别                         1001                                              
+IndustryStandard     行业标准                           NULL                                              
+IndustryType         行业类别                           NULL                                              
+PubOrgCode           发布机构代码                         25407                                             
+PubOrgName           发布机构名称                         中证指数有限公司、上海证券交易所                                  
+CreatIndexOrgCode    编制机构代码                         25407                                             
+CreatIndexOrgName    编制机构名称                         中证指数有限公司                                          
+PubDate              发布日期                           1991-07-15 12:00:00.000                           
+BaseDate             基日                             1990-12-19 12:00:00.000                           
+BasePoint            基点(点)                          100.0                                             
+WAMethod             加权方式                           43                                                
+ComponentSum         成份证券数量                         2231.0                                            
+ComponentAdPeriod    成份证券调整周期                       997.0                                             
+IndexRemark          指数简介                           2020年7月22日之前实施的方案。
+上证综合指数的样本股是全部上市股票，包括A股和B股，从...
+XGRQ                 修改日期                           2024-10-17 10:19:41.550                           
+JSID                 JSID                           782777884892                                      
+IndexPriceType       指数计算类别                         1                                                 
+IndexDesignType      指数设计类别                         1                                                 
+Relationship         与主指数关系                         5                                                 
+SecuMarket           成份证券市场                         7                                                 
+CurrencyCode         币种                             1420                                              
+IndexAbstract        指数摘要                           上证综合指数由在上海证券交易所上市的符合条件的股票与存托凭证组成样本，反映上海证券交易所上市公...
+PubIndexType         指数类别(发布机构)                     471011                                            
+IndexSeries          指数系列                           101100.0                                         
+
+
+=== indexdb.lc_indexcomponent 表结构 ===
+列名                   注释                             数据示例                                              
+----------------------------------------------------------------------------------------------------
+ID                   ID                             188380882875                                      
+IndexInnerCode       指数内部编码                         3145                                              
+SecuInnerCode        证券内部编码                          170                                               
+InDate               调入日期                           2006-01-04 12:00:00.000                           
+OutDate              调出日期                           2013-12-16 12:00:00.000                           
+Flag                 成份标志                           0                                                 
+XGRQ                 修改日期                           2013-12-16 07:33:11.407                           
+JSID                 JSID                           440494391418                                      
+SecuMarket           成份股市场代码                           90                                                
+
+
+=== institutiondb.lc_instiarchive 表结构 ===
+列名                   注释                             数据示例                                              
+----------------------------------------------------------------------------------------------------
+ID                   ID                             327592393264                                      
+CompanyCode          公司代码                           79944                                             
+ParentCompany        所属公司                           185940                                            
+InvestAdvisorName    基金管理人名称                        NULL                                              
+ChiName              中文名称                           中国证券登记结算有限责任公司上海分公司                               
+AbbrChiName          中文简称                           中登上海分公司                                           
+NameChiSpelling      中文拼音简称                         ZGZQDJJSSHFGS                                     
+EngName              英文名称                           NULL                                              
+RegCapital           注册资本(元)                        NULL                                              
+CurrencyUnit         货币单位                           NULL                                              
+EstablishmentDate    公司成立日期                         2001-07-25 12:00:00.000                           
+EconomicNature       经济性质                           NULL                                              
+CompanyNature        企业性质                           NULL                                              
+CompanyType          企业类别                           1140                                              
+RegAddr              公司注册地址                         中国(上海)自由贸易试验区杨高南路188号                             
+RegZip               注册地址邮编                         NULL                                              
+RegCity              注册所在城市                         310000                                            
+OfficeAddr           公司办公地址                         上海市浦东新区杨高南路188号                                   
+ContactAddr          公司联系地址                         上海市浦东新区杨高南路188号                                   
+ContactZip           联系地址邮编                         200127                                            
+ContactCity          联系所在城市                         310000                                            
+Email                邮箱                             NULL                                              
+Website              公司网址                           NULL                                              
+LegalPersonRepr      法人代表                           NULL                                              
+GeneralManager       总经理                            NULL                                              
+OtherManager         其它负责人                          周宁                                                
+Contactman           联系人                            NULL                                              
+Tel                  电话                             4008058058                                        
+Fax                  传真                             NULL                                              
+BriefIntroText       公司简介                           中国证券登记结算有限公司上海分公司（以下简称公司），是一个为证券交易提供集中的登记、托管与结算...
+BusinessMajor        经营范围-主营                        在中国证券登记结算有限责任公司经营范围内从事证券登记结算业务活动。【依法须经批准的项目,经相关...
+Industry             所属行业                           4161                                              
+StartDate            起始日期                           NULL                                              
+IfExisted            是否存在                           1                                                 
+XGRQ                 修改日期                           2024-09-29 10:06:40.447                           
+JSID                 JSID                           781630287880                                      
+OrganizationCode     评级机构代码                         72935636-X                                        
+CompanyCval          公司属性                           NULL                                              
+CreditCode           统一社会信用代码                       9131011572935636XY                                
+RegArea              注册地城市                          144190112                                         
+RegOrg               登记机构                           自由贸易试验区市场监督管理局                                    
+RegStatus            登记状态                           1                                                
+
+
+=== institutiondb.ps_eventstru 表结构 ===
+列名                   注释                             数据示例                                              
+----------------------------------------------------------------------------------------------------
+ID                   ID                             642623836927                                      
+EventName            事件名称                           资质荣誉                                              
+EventCode            事件代码                           FBT0000000EY                                      
+FEventCode           父级事件代码                         FBT000000089                                      
+EventLevel           事件级别                           2                                                 
+IfEffected           是否有效                           FCC000000005                                      
+InsertTime           发布时间                           2020-05-25 10:47:08.247                           
+UpdateTime           更新时间                           2020-05-25 10:47:08.247                           
+JSID                 JSID                           643718828445                                      
+
+
+=== institutiondb.ps_newssecurity 表结构 ===
+列名                   注释                             数据示例                                              
+----------------------------------------------------------------------------------------------------
+ID                   ID                             646996772025                                      
+RID                  RID                            606498305893                                      
+InnerCode            证券内部编码                         16764                                             
+CompanyCode          公司代码                           170593                                            
+EventType            事件类别                           FBT000000094                                      
+EventName            事件名称                           对外投资                                              
+EventDate            事件时间                           NULL                                              
+EmotionDirection     情感方向                           FCC0000002QF                                      
+EmotionImportance    情感重要度                          FCC0000002QE                                      
+InsertTime           发布时间                           2020-06-29 06:44:12.670                           
+UpdateTime           更新时间                           2020-06-29 06:44:12.670                           
+JSID                 JSID                           646996772026                                      
+
+
+=== publicfunddb.mf_dividend 表结构 ===
+列名                   注释                             数据示例                                              
+----------------------------------------------------------------------------------------------------
+ID                   ID                             608016310186                                      
+InnerCode            基金内部编码                         218558                                            
+InfoPublDate         信息发布日期                         2019-04-08 12:00:00.000                           
+InfoSource           信息来源                           二O一九年第一次收益分配公告                                    
+EndDate              截止日期                             2019-03-31 12:00:00.000                           
+IfDistributed        是否分红                           1                                                 
+DividendRatioBeforeTax 派现比例(含税10派X元)                  0.18                                              
+ActualRatioAfterTax  实派比例(税后10派X元)                  0.18                                              
+Dividendsum          派现金额合计(元)                      170593.0                                              
+ReDate               权益登记日                          2019-04-09 12:00:00.000                           
+ExRightDate          除息日                            2019-04-09 12:00:00.000                           
+ExecuteDate          发放日                            2019-04-11 12:00:00.000                           
+SchemeModification   方案变更说明                         红利再投资的基金份额可赎回起始日为本基金的下一个开放日                                              
+XGRQ                 更新日期                           2022-12-25 12:11:01.023                           
+JSID                 JSID                           725458316544                                      
+ReinvestDay          红利再投资日                         2019-04-09 12:00:00.000                           
+AccountDay           红利再投资份额到帐日                     2019-04-10 12:00:00.000                           
+RedemptionDay        红利再投资份额可赎回日                    2019-04-11 12:00:00.000                           
+UnitProfitYTD        本年单位累计分红(元)                    0.018                                             
+DividendSumYTD       本年累计分红总额(元)                    24660000                                              
+DividendTimesYTD     本年累计分红次数(次)                    1                                                 
+DiviSumSinceInception 历史累计分红总额(元)                    24660000                                              
+DiviTimesSinceIncepion 历史累计分红次数(次)                    1                                                 
+EventProcedureCode   事件进程代码                           3131                                              
+EventProcedure       事件进程                           方案实施                                              
+ExRightDateEX        场内除息日                          2019-04-09 12:00:00.000                                              
+ExRightDateCurbEX    场外除息日                          2019-04-09 12:00:00.000                                              
+ExecuteDateEX        场内发放日                          2019-04-09 12:00:00.000                                              
+ExecuteDateCurbEX    场外发放日                          2019-04-09 12:00:00.000                                              
+DistributableProfits 基准日基金可供分配利润(元)                 1428322.51                                        
+AllocationValue      基准日应分配金额(元)                    714161.26                                         
+ProfitDistDate       收益分配基准日                        2019-03-31 12:00:00.000                           
+DistributedRange     发放范围                           权益登记日在本基金注册登记机构登记在册的本基金全体基金份额持有人                  
+TransCode            基金转型统一编码                         218558                                            
+DividendImplementDate 分红实施公告日                        2019-04-08 12:00:00.000                           
+
+
+=== publicfunddb.mf_fundarchives 表结构 ===
+列名                   注释                             数据示例                                              
+----------------------------------------------------------------------------------------------------
+ID                   ID                             596367316253                                      
+InnerCode            基金内部编码                         202915                                            
+EstablishmentDate    公司成立日期                         2019-01-14 12:00:00.000                           
+ListedDate           上市日期                           2019-02-14 12:00:00.000                                              
+Duration             存续年限(年)                          26                                              
+StartDate            存续期起始日                           2019-01-14 12:00:00.000                           
+ExpireDate           存续期截止日                         2019-01-14 12:00:00.000                                              
+Manager              基金经理                           王紫菡                                               
+InvestAdvisorCode    基金管理人代码                         41516                                             
+TrusteeCode          基金托管人代码                        3668                                              
+Type                 基金运作方式                             2                                                 
+InvestmentType       是否指数型                           7                                                 
+InvestStyle          基金投资风格                         84                                                
+FoundedSize          基金设立规模(份)                      279844440.14                                      
+InvestOrientation    基金投资方向                             本基金采取完全复制法，即完全按照标的指数的成份股组成及其权重构建基金投资组合，并根据标...
+InvestTarget         基金投资目标                               紧密跟踪标的指数，追求跟踪偏离度及跟踪误差的最小化，本基金力争日均跟踪偏离度的绝对值不...
+PerformanceBenchMark 业绩比较基准                         恒生港股通新经济指数收益率（人民币价）×95%+银行活期存款税后利率×5%             
+ProfitDistributionRule 收益分配原则                         在符合有关基金分红条件的前提下，本基金可以进行收益分配，本基金每年收益分配次数最多为12次，每...
+InvestField          基金投资范围                               本基金以标的指数成份股及备选成份股为主要投资对象。本基金还可投资于非成份股（包含中小板...
+BriefIntro           基金简介                               本基金经中国证监会2018年9月3日证监许可[2018]1418号注册募集。本基金将自...
+XGRQ                 修改日期                           2024-09-27 07:00:31.163                           
+JSID                 JSID                           781426175379                                      
+ApplyingCodeFront    前端申购代码                         006614                                            
+RiskReturncharacter  风险收益特征                         本基金主要通过投资于恒生港股通新经济指数的成分股来实现对标的指数的紧密跟踪。因此，本基金的业绩...
+LowestSumSubscribing 最低认购申购金额描述                     通过场外认购本基金时，单笔最低认购金额为1元，追加最低认购金额为1元。通过直销中心柜台首次认购...
+LowestSumRedemption  最低赎回份额(份)                      NULL                                              
+LSFRDescription      最低赎回份额描述                       投资人在场外赎回本基金份额时，可申请将其持有的部分或全部基金份额赎回。               
+LowestSumForHolding  最低持有份额(份)                      1.0                                               
+LSFHDescription      最低持有份额描述                       每个场外基金交易账户最低持有基金份额余额为1份。                          
+FundNature           基金性质                           1                                                 
+FundTypeCode         基金类别代码                         1101                                              
+FundType             基金类别                           股票型                                               
+CarryOverDate        货币基金结转日                        NULL                                              
+CarryOverDateRemark  货币基金结转日说明                      NULL                                              
+CarryOverType        货币基金收益分配方式(份额结转方式)             NULL                                              
+RegInstCode          注册登记机构(TA类型)                   79944                                             
+SecurityCode         基金代码                006614                                            
+DeliveryDays         赎回款到账天数                        7.0                                               
+RiskReturnCode       风险收益特征代码                       NULL                                              
+FloatType            发售方式                           2                                                 
+CustodyMarket        转托管市场                          NULL                                              
+OperationPeriod      运作期                            NULL                                              
+OperationPDUnitCode  运作期单位代码                        NULL                                              
+OperationPDUnitName  运作期单位名称                        NULL                                              
+IfInitiatingFund     是否发起式基金                        1                                                 
+ClassificationFundType 分级基金类别                         NULL                                              
+ExApplyingMarket     场内申购赎回场所                       NULL                                              
+ExApplyingCode       场内申购赎回代码                       NULL                                              
+ExApplyingAbbr       场内申购赎回简称                       NULL                                              
+LowestSumSubLL       最低认购金额下限(元)                    1.0                                               
+LowestSumPurLL       最低申购金额下限(元)                    1.0                                               
+MainCode             基金主代码                          501311                                            
+ExProfitDistri       场内收益分配方式                       NULL                                              
+OTCProfitDistri      场外收益分配方式                       3.0                                               
+IfFOF                是否FOF                          2                                                 
+IfPensionTarget      是否养老目标基金                       2                                                 
+PRconfirmationdate   申赎确认日                          1.0                                               
+EstablishmentDateII  转型前设立日期                        NULL                                              
+InsertTime           插入时间                           2019-07-17 01:52:03.040                           
+TransCode            基金转型统一编码                       202915                                            
+LargeRedemptionRatio 巨额赎回认定比例                       0.1                                               
+SecuCode             证券代码                           006614                                            
+
+
+=== publicfunddb.mf_fundprodname 表结构 ===
+列名                   注释                             数据示例                                              
+----------------------------------------------------------------------------------------------------
+ID                   ID                             596367161784                                      
+InnerCode            基金内部编码                         202914                                            
+InfoPublDate         信息发布日期                         2019-02-11 12:00:00.000                           
+InfoSource           信息来源                           上市交易公告书                                           
+InfoType             信息类别                           1                                                 
+DisclName            披露名称                           新经济HK                                             
+EffectiveDate        生效日期                           2019-02-14 12:00:00.000                           
+ExpiryDate           失效日期                           NULL                                              
+IfEffected           是否有效                           1                                                 
+UpdateTime           更新时间                           2022-06-21 03:28:55.580                           
+JSID                 JSID                           709107373104                                      
+ChiSpelling          拼音证券简称                         XJJHK                                             
+TransCode            基金转型统一编码                       202914                                            
+InsertTime           插入时间                           2018-11-24 09:32:41.783                           
+
+
+=== publicfunddb.mf_investadvisoroutline 表结构 ===
+列名                   注释                             数据示例                                              
+----------------------------------------------------------------------------------------------------
+ID                   ID                             369827943686                                      
+InvestAdvisorCode    基金公司代码                         5131                                              
+InvestAdvisorName    基金管理人名称                        汇添富基金管理股份有限公司                                     
+InvestAdvisorAbbrName 基金管理人简称                        汇添富基金                                             
+LegalRepr            法人代表                           李文                                                
+GeneralManager       总经理                            张晖                                                
+EstablishmentDate    公司成立日期                         2005-02-03 12:00:00.000                           
+OrganizationForm     组织形式                           100                                               
+RegCapital           注册资本(元)                        132724224.0                                       
+RegAddr              公司注册地址                         上海市黄浦区北京东路666号H区（东座）6楼H686室                       
+OfficeAddr           公司办公地址                         上海市黄浦区外马路728号                                     
+ZipCode              邮编                             200010                                            
+Email                邮箱                             service@99fund.com                                
+ContactAddr          公司联系地址                         上海市黄浦区外马路728号                                     
+Tel                  电话                             021-28932888;4008889918                           
+Fax                  传真                             021-28932998                                      
+WebSite              公司网址                           http://www.99fund.com                             
+LinkMan              联系人                            李鹏                                                
+Background           简历                                 汇添富基金成立于2005年2月，是中国一流的综合性资产管理公司之一。公司总部设立于上海...
+Region               所属地区                           310000                                            
+XGRQ                 修改日期                           2023-11-15 07:45:28.573                           
+JSID                 JSID                           753420041454                                      
+ServiceLine          客服热线                           4008889918                                        
+TACode               注册登记代码                         47                                                   
+
