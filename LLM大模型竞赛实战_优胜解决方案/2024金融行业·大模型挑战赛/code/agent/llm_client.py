@@ -1,8 +1,6 @@
 from config import *
 from zhipuai import ZhipuAI
 
-client = ZhipuAI(api_key=api_key)
-
 def create_chat_completion(messages, model=MODEL):
     """
     Create a chat completion using the provided messages and model.

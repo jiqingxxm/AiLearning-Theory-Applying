@@ -1,7 +1,7 @@
 # agent/question/question_utils.py
 import json
 from config import *
-from agent.prompt import create_chat_completion
+from agent.llm_client import create_chat_completion
 from agent.sql.exec import exec_sql_s
 from agent.utils import find_json, dict_to_sentence
 

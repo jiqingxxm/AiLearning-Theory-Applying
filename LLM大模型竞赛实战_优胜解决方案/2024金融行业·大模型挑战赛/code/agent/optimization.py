@@ -1,5 +1,5 @@
 # agent/optimization.py
-from agent.prompt import create_chat_completion
+from agent.llm_client import create_chat_completion
 
 def optimize_answer(question_txt, answer_txt, org_answer):
     """

@@ -1,6 +1,6 @@
 # agent/sql/exec.py
 from config import *
-from agent.prompt import create_chat_completion
+from agent.llm_client import create_chat_completion
 
 def async_llm_chain_call(messages, model=MODEL, tree_node=ASYNC_LLM_TIME):
     """

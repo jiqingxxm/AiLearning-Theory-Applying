@@ -1,7 +1,7 @@
 import time, gc
 from config import *
 from agent.question.question_utils import preprocessing_question, process_question, process_dict, add_question_mark, question_rew
-from agent.prompt import create_chat_completion, create_chat_completion_change_zhushi
+from agent.llm_client import create_chat_completion, create_chat_completion_change_zhushi
 from agent.schema.schema_utils import get_table_schema, find_table_with_emb, get_table_schema_with_emb, deep_find_tables 
 from agent.sql.exec import exec_sql_s
 from agent.sql.process_sql import to_select, extract_table_names, all_tables_in_prompt
@@ -107,16 +107,6 @@ def run_conversation_xietong(question, org_question):
                 all_tables_name_list += deep_tables_name_list
                 all_tables_name_list = list(set(all_tables_name_list))
                 
-            # org_table_maps_LL, org_question_similarity_score_list = get_table_schema_with_emb(all_tables_name_list, org_question)
-            # # print(f"--------------org_table_maps_LL:{org_table_maps_LL}")
-            # if max(org_question_similarity_score_list) < START_DEEP_THRESHOLD: # 没有大于0.5的说明这个表可能不对，新增表
-            #     print(f"-----------Start org Deeping table search")
-            #     org_deep_table_maps_LL = deep_find_tables(all_tables_name_list, org_question)
-            #     print(f"--------------len(org_deep_table_maps_LL):{len(org_deep_table_maps_LL)}")
-            #     org_deep_tables_name_list = [i.get('数据表名') for i in org_deep_table_maps_LL]
-            #     all_tables_name_list += org_deep_tables_name_list
-            #     all_tables_name_list = list(set(all_tables_name_list))
-    
             if max(highest_similarity_score_list) < START_DEEP_THRESHOLD:
                 table_maps_LL, highest_similarity_score_list = get_table_schema_with_emb(all_tables_name_list, question)
                 if DEBUG_VER == 3:

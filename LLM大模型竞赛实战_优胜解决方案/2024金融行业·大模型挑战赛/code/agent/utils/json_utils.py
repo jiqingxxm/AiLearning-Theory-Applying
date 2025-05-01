@@ -1,6 +1,6 @@
 # utils/json_utils.py
 from config import *
-from agent.prompt import create_chat_completion
+from agent.llm_client import create_chat_completion
 import re
 import json
 
