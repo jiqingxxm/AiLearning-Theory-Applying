@@ -71,13 +71,15 @@
             <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/%E7%AC%AC%E4%BA%94%E7%AB%A0%E2%80%94%E2%80%94LSTM%E7%BD%91%E7%BB%9C%E6%9E%B6%E6%9E%84%E4%B8%8E%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90%E5%BA%94%E7%94%A8%E5%AE%9E%E4%BE%8B'>LSTM网络架构与情感分析应用实例</a>
 		<li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%BF%AB%E6%89%8B%E7%9F%AD%E8%A7%86%E9%A2%91%E7%94%A8%E6%88%B7%E6%B4%BB%E8%B7%83%E5%BA%A6%E5%88%86%E6%9E%90'>快手用户活跃预测（含数据集）</a>
             <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/ACM%20SIGSPATIAL%202021%20GISCUP'>ACM SIGSPATIAL 2021预估到达时间（含数据集）</a>
+        </ul>
 <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/NLP%E9%80%9A%E7%94%A8%E6%A1%86%E6%9E%B6BERT%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98'>NLP通用框架BERT项目实战</a>
         <ul>
             <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/NLP%E9%80%9A%E7%94%A8%E6%A1%86%E6%9E%B6BERT%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/%E7%AC%AC%E4%B8%80%E7%AB%A0%E2%80%94%E2%80%94NLP%E9%80%9A%E7%94%A8%E6%A1%86%E6%9E%B6BERT%E5%8E%9F%E7%90%86%E8%A7%A3%E8%AF%BB.md'>NLP通用框架BERT原理解读</a>
             <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/NLP%E9%80%9A%E7%94%A8%E6%A1%86%E6%9E%B6BERT%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E2%80%94%E2%80%94BERT%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB%E4%B8%8E%E5%BA%94%E7%94%A8%E5%AE%9E%E4%BE%8B'>BERT源码解读与应用实例</a>
             <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/NLP%E9%80%9A%E7%94%A8%E6%A1%86%E6%9E%B6BERT%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/%E7%AC%AC%E4%B8%89%E7%AB%A0%E2%80%94%E2%80%94%E5%9F%BA%E4%BA%8EBERT%E7%9A%84%E4%B8%AD%E6%96%87%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90%E5%AE%9E%E6%88%98.md'>基于BERT的中文情感分析实战.md</a>
         </ul> 
-        </ul>
+
+
 
 
 
